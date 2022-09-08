@@ -44,9 +44,10 @@ body {
     text-decoration: none;
 }
 
-img {
+.main img {
     height: 300px;
-    width: 50%;
+    width: 300px;
+    flex-grow: 0;
 }
 
 .main {
@@ -80,4 +81,43 @@ img {
     font-weight: bold;
     border-radius: 8px;
     padding: 4px 16px;
+    border-color: #3882f6;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.information .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 36px;
+}
+
+.cells {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    gap: 36px;
+}
+
+.cell {
+    text-align: center;
+    width: 150px;
+}
+
+.cell img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6; 
+    border-radius: 12px;
+}
+
+.cell p {
+    font-size: small;
+    margin: 4px 0;
 }
