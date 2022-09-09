@@ -7,7 +7,7 @@ body {
 
 .footer,
 .hero {
-    background-color: #1f2937;
+    background-color: darkslateblue;
 }
 
 .hero {
@@ -25,9 +25,29 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 75%;
+    text-decoration: none;
 }
 
-.logo {
+.logo-container:visited {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.logo-container {
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo-container img {
+    height: 50px;
+    width: auto;
+}
+
+
+.title {
     font-size: 24px;
     font-weight: bold;
 }
@@ -39,25 +59,29 @@ body {
     list-style-type: none;
     gap: 16px;
     font-size: 18px;
-    color: #e5e7eb;
 }
 
 .navigation a {
-    color: #e5e7eb;
     text-decoration: none;
+    color: #f9faf8;
+}
+
+.navigation a:hover {
+    background-color: purple;
 }
 
 .main img {
     height: 300px;
-    width: 300px;
+    width: auto;
     flex-grow: 0;
+    border-radius: 12px;
 }
 
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 75%;
-    gap: 16px;
+    gap: 36px;
     align-items: center;
 }
 
@@ -79,12 +103,11 @@ body {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: rgb(155, 87, 233);
     color: #f9faf8;
     font-weight: bold;
     border-radius: 8px;
     padding: 4px 16px;
-    border-color: #3882f6;
 }
 
 .information {
@@ -116,12 +139,11 @@ button {
 .cell img {
     width: 150px;
     height: 150px;
-    border: 2px solid #3882f6; 
+    border: 2px solid  rgb(155, 87, 233); 
     border-radius: 12px;
 }
 
 .cell p {
-    font-size: small;
     margin: 4px 0;
     color: rgb(92, 90, 90)
 }
@@ -148,7 +170,7 @@ button {
 }
 
 .call-to-action .banner {
-    background-color: #3882f6;
+    background-color: rgb(155, 87, 233);
     display: flex;
     justify-content: space-between;
     padding: 32px 8%;
@@ -169,4 +191,8 @@ button {
     color: #f9faf8;
     text-align: center;
     padding: 24px;
+}
+
+.footer a:visited {
+    color: #f9faf8;
 }
