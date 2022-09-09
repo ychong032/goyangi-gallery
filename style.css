@@ -195,6 +195,10 @@ button {
     padding: 24px;
 }
 
+.footer a {
+    color: #f9faf8;
+}
+
 .footer a:visited {
     color: #f9faf8;
 }
