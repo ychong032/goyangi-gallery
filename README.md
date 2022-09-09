@@ -1,8 +1,6 @@
 # Goyangi Gallery
 A simple project with the aim of creating a landing page.
 
-<br>
-
 # Image Credits
 The images of cats were obtained from [Pexels](https://pexels.com).
 - Photo by Pixabay from Pexels: https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/
